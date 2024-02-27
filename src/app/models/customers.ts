@@ -4,6 +4,7 @@ import { CustomerAddress } from './addresses';
 export interface Customers {
   id: string;
   name: string;
+  email: string; //Added
   phone: string;
   profile: string;
   createdAt: Date;
